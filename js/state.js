@@ -17,7 +17,7 @@ const DEFAULT_SHELL_SETTINGS = Object.freeze({
     userControlVisible: false,
     transferAnimation: Object.freeze({
       enabled: true,
-      durationMs: 1000,
+      durationMs: 500,
       speedLevelsMs: Object.freeze([500, 1000, 1500]),
       safetyBufferMs: 180
     }),
@@ -37,25 +37,25 @@ const DEFAULT_SHELL_SETTINGS = Object.freeze({
     userControlVisible:true,
     defaultPercent:100,
     minPercent:80,
-    maxPercent:140,
+    maxPercent:200,
     stepPercent:10,
     persistPreference:true
   }),
   sourceFlow:Object.freeze({
     resultHoldMs:300,
     modalCloseSettleMs:320,
-    movementDurationMs:500,
+    movementDurationMs:300,
     reducedMotionDurationMs:120
   }),
   compoundAssignment: Object.freeze({
-    mergeDurationMs: 2200,
-    writebackDelayMs: 2400
+    mergeDurationMs: 1000,
+    writebackDelayMs: 1000
   }),
   solutionPlayback: Object.freeze({
     stepDurationMs: 1000
   }),
   liveStepScroll: Object.freeze({
-    maxWaitMs: 900,
+    maxWaitMs: 500,
     bottomInsetPx: 28
   }),
   pagination: Object.freeze({
