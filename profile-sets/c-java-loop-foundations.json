@@ -33,28 +33,6 @@
         "foundations-trace-counters-accumulators"
       ]
     },
-    {
-      "id": "loop-foundations-simulate",
-      "name": "Predict Loop Results",
-      "enabled": true,
-      "profileIds": [
-        "foundations-simulate-while-basics",
-        "foundations-simulate-do-while-basics",
-        "foundations-simulate-for-basics",
-        "foundations-simulate-counters-accumulators"
-      ]
-    },
-    {
-      "id": "loop-foundations-order",
-      "name": "Build Loop Programs",
-      "enabled": true,
-      "profileIds": [
-        "foundations-order-while-basics",
-        "foundations-order-do-while-basics",
-        "foundations-order-for-basics",
-        "foundations-order-counters-accumulators"
-      ]
-    }
   ],
   "profiles": [
     {
